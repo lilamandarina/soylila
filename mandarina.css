@@ -4,10 +4,9 @@
 	padding:0;
 }
 body{
-	/*background-image: url(img/fondo.jpg);*/
+	background: white;
 
 	/*color:#000;*/
-	background: black;
 }
 
 .container{
@@ -22,16 +21,13 @@ body{
 	grid-column: 2/4;
 	grid-row:1/2;
 	text-align: center;
-	background: #F9F3F8;
-	font-family: roboto;
 	
 
 
 }
 
 .box1{
-	background-image: url(img/fondodos.jpg);
-	
+	background: white;
 	grid-column: 2/4;
 	grid-row:2/4;
 	display:flex;
@@ -45,13 +41,8 @@ body{
 	grid-row:4/5;
 	text-align: center;
 	margin:5px;
-	font-size: 30px;
+	font-size: 40px;
 	padding:5px;
-	background: #F9F3F8;
-	margin-bottom: 10px;
-	margin-top:5px;
-	font-family: roboto;
-
 }
 
 .box2{
@@ -67,7 +58,6 @@ grid-column: 3/5;
 	grid-row:5/7;
 	display:flex;
 	justify-content: center;
-	margin-bottom:5px;
 }
 	
 	
@@ -88,15 +78,9 @@ grid-column: 3/5;
 }
 
 .footer{
-	background: #DDFDFB;
-	
+	background: black;
+	color: white;
 	grid-column: 1/5;
 	grid-row:9/10;
 	text-align: center;
-	margin:5px;
-	font-size: 15px;
-	font-family: roboto;
-	margin-right: 20px;
-	margin-left: 20px;
 }
-
